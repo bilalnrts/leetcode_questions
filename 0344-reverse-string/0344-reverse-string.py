@@ -9,4 +9,4 @@ class Solution:
         if (current == int(lenght / 2)):
             return
         s[current], s[-(current + 1)] = s[-(current + 1)], s[current]
-        return self.myFunc(s, lenght, current + 1)
+        self.myFunc(s, lenght, current + 1)
